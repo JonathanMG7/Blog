@@ -20,11 +20,24 @@ body > footer{
     text-align: center;
 }
 body > #container{
+/*    margin: 0 auto; /*adivina qué hacen estas dos lineas juntas*/
     min-height: 200px;
+    overflow: hidden; /*esta linea es importante, hace de caja padre*/
+/*    width: 80%;*/ /*adivina qué hacen estas dos lineas juntas*/
 }
 
 
-
-#container section{
-    border:solid thin #dadada;
+/*---------- <Código agredado por > ------------*/
+#post-list{
+    background-color:aliceblue;
+    width: 80%;
+    float: left;/*se ajusta a su caja padre*/
 }
+#aside-publicidad{
+    background-color:  #dadada;/*solo para saber cuanto espacio ocupa*/
+    float: right;/*se ajusta a su caja padre*/
+    min-height: 400px;
+    width: 18%;
+}
+
+/*---------- </Código agredado> ------------*/
