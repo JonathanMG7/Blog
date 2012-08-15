@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*Siempre inicializar esto, sino, se ponen unas margenes que no queremos*/
+}
+a,a:visited,a:link{
+    color:#5c57f7; /*Un solo color para todos los links*/
+}
+.b{
+	border:solid thin gray;
+}
+body{
+    /*background-color: gray;*/
+    padding: 0;
+}
+body > header{
+    text-align: center;
+}
+body > footer{
+    text-align: center;
+}
+body > #container{
+    min-height: 200px;
+}
+
+
+
+#container section{
+    border:solid thin #dadada;
+}
