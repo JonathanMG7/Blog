@@ -15,34 +15,45 @@ body{
     padding: 0;
 }
 body > header{
-    margin: 2% 5%;
+/*    margin: 2% 5%;*/
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
 }
 body > footer{
-    margin: auto 5%;
+/*    margin: auto 5%;*/
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
 }
 body > #container{
-    margin: 1% 5%; /*adivina qué hacen estas dos lineas juntas*/
+    margin: 0 auto; /* adivina qué hacen estas dos lineas juntas*/
     min-height: 200px;
     overflow: hidden; /*esta linea es importante, hace de caja padre*/
-/*    width: 80%;*/ /*adivina qué hacen estas dos lineas juntas*/
+    width: 80%; /*adivina qué hacen estas dos lineas juntas*/
 }
 
 
 /*---------- <Código agredado por > ------------*/
 #post-list{
-    margin: 1% 0.5%;
+/*    margin: 1% 0.5%;*/
     background-color:aliceblue;
     width: 80%;
     float: left;/*se ajusta a su caja padre*/
 }
 #aside-publicidad{
-     margin: 1% 0%;
+/*    margin: 1% 0%;*/
     background-color:  #dadada;/*solo para saber cuanto espacio ocupa*/
     float: right;/*se ajusta a su caja padre*/
     min-height: 400px;
+    padding: 5px;
     width: 18%;
+}
+
+.img-publicidad{
+    width: 100px;
+    height: 100px;
+    float:left;
 }
 
 /*---------- </Código agredado> ------------*/
