@@ -8,7 +8,7 @@ a,a:visited,a:link{
 }
 .b{
         
-	border:solid thin gray;
+    border:solid thin #ffffff;
 }
 body{
     /*background-color: gray;*/
@@ -16,21 +16,23 @@ body{
 }
 body > header{
 /*    margin: 2% 5%;*/
+    height: 150px;
     margin: 0 auto;
-    text-align: center;
-    width: 80%;
+    text-align: left;
+    width: 70%;
 }
 body > footer{
 /*    margin: auto 5%;*/
     margin: 0 auto;
     text-align: center;
-    width: 80%;
+    width: 70%;
 }
 body > #container{
     margin: 0 auto; /* adivina qué hacen estas dos lineas juntas*/
+    padding: 10 px;
     min-height: 200px;
     overflow: hidden; /*esta linea es importante, hace de caja padre*/
-    width: 80%; /*adivina qué hacen estas dos lineas juntas*/
+    width: 70%; /*adivina qué hacen estas dos lineas juntas*/
 }
 
 
@@ -38,15 +40,16 @@ body > #container{
 #post-list{
 /*    margin: 1% 0.5%;*/
     background-color:aliceblue;
-    width: 80%;
+    width: 70%;
+    padding: 10px;
     float: left;/*se ajusta a su caja padre*/
 }
 #aside-publicidad{
 /*    margin: 1% 0%;*/
     background-color:  #dadada;/*solo para saber cuanto espacio ocupa*/
     float: right;/*se ajusta a su caja padre*/
-    min-height: 400px;
-    padding: 5px;
+    min-height: 300px;
+    padding: 2%;
     width: 18%;
 }
 
@@ -56,4 +59,15 @@ body > #container{
     float:left;
 }
 
+.img-header{
+    width: 145px;
+    height: 145px;
+    float:left;
+}
+
+.img-articulo{
+    width: 150px;
+    height: 200px;
+    float:left;
+}
 /*---------- </Código agredado> ------------*/
