@@ -22,7 +22,7 @@ body > header{
     text-align: left;
     width: 70%;
 }
-    #cabecera{
+#cabecera{
         height: 150px;
         margin: 0 auto;
         width: 70%;
@@ -113,4 +113,23 @@ li a {
 }
 li a:hover {
     background-color:#0EA3ED; /*decoración para el evento hover (mouse encima)*/ 
+}
+
+#cabecera h1{
+
+    font-size:35px;
+    font-weight:bolder;
+    width:224px;
+    color:#5c57f7;
+    margin:0; /*los h1 vienen con margen, con esto se lo quito*/ 
+    text-transform:uppercase; /*convierte todas en mayusculas*/ 
+    padding-bottom:10px;
+}
+
+#post-list h2{
+    font-size:21px;
+    color:dodgerblue;
+    width:auto;
+    text-transform:uppercase;
+    border-bottom:1px dotted dodgerblue;
 }
