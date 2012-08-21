@@ -5,6 +5,7 @@
 }
 a,a:visited,a:link{
     color:#5c57f7; /*Un solo color para todos los links*/
+    text-decoration: none;
 }
 .b{
         
@@ -81,4 +82,35 @@ body > #container{
     margin: 45px auto;
     width: auto;
     float: left;/*se ajusta a su caja padre*/
+}
+
+#menu-superior {
+    float:right;
+    margin:0 0;
+    /*border:1px solid #333333;*/
+    width:auto;
+    height:auto;
+} 
+
+ul {
+    list-style-type:none; /*Lista sin viñetas*/
+    margin:auto; 
+    padding:0;
+}
+li {
+    margin:0; /*le quito el margen al elemento de la lista*/ 
+    float:left; /*y los floto a la izquierda para eliminar el salto de linea*/ 
+}
+li a {
+    display:block; /*con esto el vinculo tendra un area rectangular, asi no sera solo el texto*/ 
+    background-color:#1EE2FF; /*algo de color*/ 
+    color:#FFFFFF; /*mas*/ 
+    width:auto; /*defino el ancho del rectangulo del vinculo*/
+    padding:4px 10px 4px 10px; /*sumamos el relleno al ancho y alto del rectangulo para obtener el div #menu completamente ocupado con los ítems del menú*/ 
+    text-decoration:none; /*elimino el subrayado del vínculo*/ 
+    font-weight:bold; /*decoración*/ 
+    text-transform:uppercase; /*decorare los vinculos en mayusculas*/
+}
+li a:hover {
+    background-color:#0EA3ED; /*decoración para el evento hover (mouse encima)*/ 
 }
