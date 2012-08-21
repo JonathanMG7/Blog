@@ -10,6 +10,7 @@ a,a:visited,a:link{
 .b{
         
     border:solid thin #ffffff;
+    
 }
 body{
     /*background-color: gray;*/
@@ -45,10 +46,14 @@ body > #container{
 /*---------- <Código agredado por > ------------*/
 #post-list{
 /*    margin: 1% 0.5%;*/
-    background-color:aliceblue;
+    background-color:powderblue;
     width: 70%;
     padding: 10px;
     float: left;/*se ajusta a su caja padre*/
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 #aside-publicidad{
 /*    margin: 1% 0%;*/
@@ -99,7 +104,7 @@ ul {
 }
 li {
     margin:0; /*le quito el margen al elemento de la lista*/ 
-    float:left; /*y los floto a la izquierda para eliminar el salto de linea*/ 
+    float:left; /*y los floto a la izquierda para eliminar el salto de linea*/   
 }
 li a {
     display:block; /*con esto el vinculo tendra un area rectangular, asi no sera solo el texto*/ 
@@ -110,6 +115,8 @@ li a {
     text-decoration:none; /*elimino el subrayado del vínculo*/ 
     font-weight:bold; /*decoración*/ 
     text-transform:uppercase; /*decorare los vinculos en mayusculas*/
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 li a:hover {
     background-color:#0EA3ED; /*decoración para el evento hover (mouse encima)*/ 
@@ -118,7 +125,7 @@ li a:hover {
 #cabecera h1{
 
     font-size:35px;
-    font-weight:bolder;
+    font-weight:lighter;
     width:224px;
     color:#5c57f7;
     margin:0; /*los h1 vienen con margen, con esto se lo quito*/ 
