@@ -21,6 +21,11 @@ body > header{
     text-align: left;
     width: 70%;
 }
+    #cabecera{
+        height: 150px;
+        margin: 0 auto;
+        width: 70%;
+    }        
 body > footer{
 /*    margin: auto 5%;*/
     margin: 0 auto;
@@ -29,7 +34,7 @@ body > footer{
 }
 body > #container{
     margin: 0 auto; /* adivina qué hacen estas dos lineas juntas*/
-    padding: 10 px;
+    padding: 10px;
     min-height: 200px;
     overflow: hidden; /*esta linea es importante, hace de caja padre*/
     width: 70%; /*adivina qué hacen estas dos lineas juntas*/
@@ -71,3 +76,9 @@ body > #container{
     float:left;
 }
 /*---------- </Código agredado> ------------*/
+
+#header-box-text{
+    margin: 45px auto;
+    width: auto;
+    float: left;/*se ajusta a su caja padre*/
+}
