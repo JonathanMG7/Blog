@@ -8,10 +8,8 @@ a,a:visited,a:link{
     text-decoration: none;
 }
 .b{
-        
-    border:solid thin #ffffff;
-    
-}
+      border:solid thin #ffffff;
+  }
 body{
     /*background-color: gray;*/
     padding: 0;
@@ -46,7 +44,7 @@ body > #container{
 /*---------- <Código agredado por > ------------*/
 #post-list{
 /*    margin: 1% 0.5%;*/
-    background-color:powderblue;
+    background-color:#C4DAFF;
     width: 70%;
     padding: 10px;
     float: left;/*se ajusta a su caja padre*/
@@ -55,13 +53,22 @@ body > #container{
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
+#footer{
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 0px;
+    
+}
 #aside-publicidad{
 /*    margin: 1% 0%;*/
+    font-size: 13px;
     background-color:  #dadada;/*solo para saber cuanto espacio ocupa*/
     float: right;/*se ajusta a su caja padre*/
     min-height: 300px;
     padding: 2%;
     width: 18%;
+    border-top-right-radius: 40px;
 }
 
 .img-publicidad{
@@ -115,8 +122,8 @@ li a {
     text-decoration:none; /*elimino el subrayado del vínculo*/ 
     font-weight:bold; /*decoración*/ 
     text-transform:uppercase; /*decorare los vinculos en mayusculas*/
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 li a:hover {
     background-color:#0EA3ED; /*decoración para el evento hover (mouse encima)*/ 
@@ -140,3 +147,11 @@ li a:hover {
     text-transform:uppercase;
     border-bottom:1px dotted dodgerblue;
 }
+#post-list h3{
+    font-size:15px;
+    color:white;
+    font-weight: lighter;
+    width:auto;
+    text-align: right;
+    text-transform:uppercase;
+    }
