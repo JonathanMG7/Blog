@@ -33,15 +33,13 @@ body > footer{
     width: 70%;
 }
 body > #container{
-    margin: 0 auto; /* adivina qué hacen estas dos lineas juntas*/
+    margin: 0 auto; /* adivina quÃ© hacen estas dos lineas juntas*/
     padding: 10px;
     min-height: 200px;
     overflow: hidden; /*esta linea es importante, hace de caja padre*/
-    width: 70%; /*adivina qué hacen estas dos lineas juntas*/
+    width: 70%; /*adivina quÃ© hacen estas dos lineas juntas*/
 }
-
-
-/*---------- <Código agredado por > ------------*/
+/*---------- <CÃ³digo agredado por > ------------*/
 #post-list{
 /*    margin: 1% 0.5%;*/
     background-color:#C4DAFF;
@@ -60,6 +58,15 @@ body > #container{
     border-bottom-right-radius: 0px;
     
 }
+#comentarios{
+    padding:2%;
+    width:75%;
+    height:100px;
+    border: 2px solid #1EE2FF;
+    border-radius: 5px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    }
 #aside-publicidad{
 /*    margin: 1% 0%;*/
     font-size: 13px;
@@ -70,7 +77,14 @@ body > #container{
     width: 18%;
     border-top-right-radius: 40px;
 }
-
+#barra-sup-bot{
+    width:15%;
+    float: right;
+    height: auto;
+    top:0; 
+    position:relative;
+        
+}
 .img-publicidad{
     width: 100px;
     height: 100px;
@@ -88,7 +102,7 @@ body > #container{
     height: 200px;
     float:left;
 }
-/*---------- </Código agredado> ------------*/
+/*---------- </CÃ³digo agredado> ------------*/
 
 #header-box-text{
     margin: 45px auto;
@@ -97,15 +111,15 @@ body > #container{
 }
 
 #menu-superior {
-    float:right;
+    float:left;
     margin:0 0;
-    /*border:1px solid #333333;*/
-    width:auto;
+    width:100%;
     height:auto;
+    position: fixed;
 } 
 
 ul {
-    list-style-type:none; /*Lista sin viñetas*/
+    list-style-type:none; /*Lista sin viÃ±etas*/
     margin:auto; 
     padding:0;
 }
@@ -118,15 +132,15 @@ li a {
     background-color:#1EE2FF; /*algo de color*/ 
     color:#FFFFFF; /*mas*/ 
     width:auto; /*defino el ancho del rectangulo del vinculo*/
-    padding:4px 10px 4px 10px; /*sumamos el relleno al ancho y alto del rectangulo para obtener el div #menu completamente ocupado con los ítems del menú*/ 
-    text-decoration:none; /*elimino el subrayado del vínculo*/ 
-    font-weight:bold; /*decoración*/ 
+    padding:4px 10px 4px 10px; /*sumamos el relleno al ancho y alto del rectangulo para obtener el div #menu completamente ocupado con los Ã­tems del menÃº*/ 
+    text-decoration:none; /*elimino el subrayado del vÃ­nculo*/ 
+    font-weight:bold; /*decoraciÃ³n*/ 
     text-transform:uppercase; /*decorare los vinculos en mayusculas*/
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
 li a:hover {
-    background-color:#0EA3ED; /*decoración para el evento hover (mouse encima)*/ 
+    background-color:#0EA3ED; /*decoraciÃ³n para el evento hover (mouse encima)*/ 
 }
 
 #cabecera h1{
