@@ -6,12 +6,16 @@
 a,a:visited,a:link{
     color:#5c57f7; /*Un solo color para todos los links*/
     text-decoration: none;
+    
 }
 .b{
-      border:solid thin #ffffff;
+      border:none;
+  }
+  .r{
+      position: relative;
   }
 body{
-    /*background-color: gray;*/
+    background-color: buttonface;
     padding: 0;
 }
 body > header{
@@ -38,6 +42,7 @@ body > #container{
     min-height: 200px;
     overflow: hidden; /*esta linea es importante, hace de caja padre*/
     width: 70%; /*adivina quÃ© hacen estas dos lineas juntas*/
+    text-align: justify;
 }
 /*---------- <CÃ³digo agredado por > ------------*/
 #post-list{
@@ -62,11 +67,11 @@ body > #container{
     padding:2%;
     width:75%;
     height:100px;
-    border: 2px solid #1EE2FF;
+    border: 1px solid #1EE2FF;
     border-radius: 5px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    }
+}
 #aside-publicidad{
 /*    margin: 1% 0%;*/
     font-size: 13px;
@@ -80,15 +85,28 @@ body > #container{
 #barra-sup-bot{
     width:15%;
     float: right;
-    height: auto;
+    height: 30px;
     top:0; 
     position:relative;
+    margin-bottom: 35px;
         
+}
+#barra-sup-der{
+    -webkit-transform: rotate(-90deg);  
+    -moz-transform: rotate(-90deg); 
+    width: 27%;
+    float: left;
+    height: 30px;
+    top:0; 
+    position:fixed;
+    margin-bottom: 35px;    
 }
 .img-publicidad{
     width: 100px;
     height: 100px;
     float:left;
+    margin-right: 3px;
+    margin-bottom: 3px;
 }
 
 .img-header{
@@ -101,7 +119,21 @@ body > #container{
     width: 150px;
     height: 200px;
     float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
+.img-articulo{
+    width: 150px;
+    height: 200px;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.img-sup{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    }
 /*---------- </CÃ³digo agredado> ------------*/
 
 #header-box-text{
@@ -114,7 +146,7 @@ body > #container{
     float:left;
     margin:0 0;
     width:100%;
-    height:auto;
+    height:30px;
     position: fixed;
 } 
 
@@ -130,7 +162,7 @@ li {
 li a {
     display:block; /*con esto el vinculo tendra un area rectangular, asi no sera solo el texto*/ 
     background-color:#1EE2FF; /*algo de color*/ 
-    color:#FFFFFF; /*mas*/ 
+    color:white; /*mas*/ 
     width:auto; /*defino el ancho del rectangulo del vinculo*/
     padding:4px 10px 4px 10px; /*sumamos el relleno al ancho y alto del rectangulo para obtener el div #menu completamente ocupado con los Ã­tems del menÃº*/ 
     text-decoration:none; /*elimino el subrayado del vÃ­nculo*/ 
@@ -140,7 +172,7 @@ li a {
     border-bottom-right-radius: 40px;
 }
 li a:hover {
-    background-color:#0EA3ED; /*decoraciÃ³n para el evento hover (mouse encima)*/ 
+    background-color:greenyellow; /*decoraciÃ³n para el evento hover (mouse encima)*/ 
 }
 
 #cabecera h1{
