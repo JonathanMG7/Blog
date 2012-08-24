@@ -29,7 +29,19 @@ body > header{
         height: 150px;
         margin: 0 auto;
         width: 70%;
-    }        
+    }   
+#coments{
+        
+        background-color: khaki;
+        padding:20px;
+        width:80%;
+        text-align:justify;
+        margin-left: 10%;
+        margin-right:10%;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        
+    }
 body > footer{
 /*    margin: auto 5%;*/
     margin: 0 auto;
@@ -173,6 +185,19 @@ li a {
 }
 li a:hover {
     background-color:greenyellow; /*decoraciÃ³n para el evento hover (mouse encima)*/ 
+}
+dl{
+    list-style-type: circle;
+    
+}
+dt{
+    border-bottom:1px dotted white;
+    font-style:normal;
+}
+dd{
+    font-family: 'Galindo', cursive;
+    border-bottom:1px dotted white;
+    /*font-style: oblique;*/
 }
 
 #cabecera h1{
