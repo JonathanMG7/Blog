@@ -8,6 +8,9 @@ a,a:visited,a:link{
     text-decoration: none;
     
 }
+*:focus {
+    outline: none; /*Quitar el borde naranja en el textarea para Chrome*/
+}
 .b{
       border:none;
   }
