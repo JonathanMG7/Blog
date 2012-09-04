@@ -114,7 +114,7 @@ a,a:visited,a:link{
 body{
     background-color: buttonface;
     padding: 0;
-/*    padding-top: 30px;*/
+    /*    padding-top: 30px;*/
 }
 body > header{
     /*    margin: 2% 5%;*/
@@ -268,7 +268,7 @@ body > #container{
     overflow: hidden;
     padding-top: 30px;
     width: 70%;
-/*    margin-top: 30px;*/
+    /*    margin-top: 30px;*/
 }   
 
 #barra-sup-bot{
@@ -282,11 +282,12 @@ body > #container{
 }
 #menu-superior {
     /*    float:left;*/
-    margin:0;
-    width:100%;
+    margin:0 auto;
+    width:70%;
     height:30px;
-    position: fixed;
-    left: 75%;
+} 
+#menu-superior > ul {
+    float:right;
 } 
 
 ul {
