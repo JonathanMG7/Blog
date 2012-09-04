@@ -96,7 +96,7 @@ body > #container{
     height:auto;
     float:right;}
 .coment_plug{
-    color: white;
+    color: royalblue;
 }
 .comentarios{
     padding:2%;
@@ -212,8 +212,10 @@ dl{
     
 }
 dt{
+    font-family: Lucida;
+    font-style: oblique;
     font-style:normal;
-    color: white;
+    color: royalblue;
 }
 dd{
     /*font-family: 'Galindo', cursive;*/
@@ -221,7 +223,7 @@ dd{
     color: gray;
     /*font-style: oblique;*/
 }
-
+        
 #cabecera h1{
     font-family: 'Gochi Hand', cursive;
     font-size:55px;
