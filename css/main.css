@@ -207,8 +207,8 @@ body > #container{
 }
 .coment_body{
     width: 100%;
-/*    margin-bottom: 10px;
-    margin-top: 5px;*/
+    /*    margin-bottom: 10px;
+        margin-top: 5px;*/
     overflow:hidden;
 }
 
@@ -217,9 +217,9 @@ body > #container{
 }
 .coment_text{
     margin-top:0;
-  width:430px;
-/*    margin-left:65px;*/
-/*    display:inline-block;*/
+    width:430px;
+    /*    margin-left:65px;*/
+    /*    display:inline-block;*/
     min-height:100px;
     padding:5px;
 }
@@ -229,7 +229,7 @@ body > #container{
 }
 .fb_coments a,.fb_coments a:visited,.fb_coments a:link{
     color: #3B5998;
-    
+
 }
 .fb_coments{
     font-size: 13px;
@@ -237,9 +237,9 @@ body > #container{
 #w-prueba{
     background-color: black;
     background-image: url('../img/up.png') ;
-/*    border: solid thin red;*/
-/*    background-position: 0 -54px;*/
-/*    display: inline;*/
+    /*    border: solid thin red;*/
+    /*    background-position: 0 -54px;*/
+    /*    display: inline;*/
     height: 5px;
     width: 9px;
 }
@@ -255,7 +255,7 @@ body > #container{
 }
 .w-prueba2{
     background-image: url('../img/elements.png') ;
-/*    border: solid thin blue;*/
+    /*    border: solid thin blue;*/
     background-position: 0px -35px;
     background-repeat:  no-repeat;
     background-size: auto;
@@ -265,8 +265,8 @@ body > #container{
 }
 .like_img{
     background-image: url('../img/elements.png') ;
-/*    background-position: 0 -54px;*/
-/*    display: inline;*/
+    /*    background-position: 0 -54px;*/
+    /*    display: inline;*/
     height: 18px;
     width: 18px;
 }
@@ -281,18 +281,35 @@ body > #container{
     font-family: tahoma;
 }
 .coment_box{
-/*    float:right;*/
+    /*    float:right;*/
     margin: 0 auto;
     width: 500px;
 }
 .comentarios{
     float: right;
     width:430px;
-    height:60px;
+    height:20px;
     border: none;
     border-radius: 1px;
     padding:5px;
+    resize: none;
 }
+
+
+.closer {
+    background-image: url("../img/equis.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -689px -76px;
+    display: inline-block;
+    float: right;
+    height: 12px;
+    margin-left: 5px;
+    vertical-align: top;
+    width: 11px;
+}
+
+
 #aside-publicidad{
     /*    margin: 1% 0%;*/
     font-size: 13px;
@@ -376,7 +393,7 @@ body > #container{
 }
 .coments > ul li{
     list-style-type:none;
-/*    border:solid thin red;*/
+    /*    border:solid thin red;*/
     width:100%;
     padding:0;
     margin: 0;

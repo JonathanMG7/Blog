@@ -51,7 +51,7 @@
         </div>
         <div id="container" class="b">
             <p>hola hola hola hola hola hola</p>
-            <div id="w-prueba">
+            <div class="closer">
                 
             </div>
             <div class="w-prueba2">
