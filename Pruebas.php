@@ -36,6 +36,12 @@
                 </div>-->
         <div id="barra-sup-bot" class="">
             <div id="menu-superior">
+                <form id="user-data" > 
+                    <input type="hidden" id="user-id" name="user-id" value="123">
+                    <input type="hidden" id="user-name" name="user-name" value="Pepito">
+                    <input type="hidden" id="user-picture" name="user-picture" value="img/Bart.gif">
+                    Usted esta logueado como Pepito
+                </form>
                 <ul> 
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="post.html">POST</a></li>

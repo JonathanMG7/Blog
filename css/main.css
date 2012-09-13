@@ -183,6 +183,10 @@ body > #container{
     width: 70%; /*adivina quÃ© hacen estas dos lineas juntas*/
     text-align: justify;
 }
+#user-data{
+    color:white;
+    float:left;
+}
 /*---------- <CÃ³digo agredado por > ------------*/
 #post-list{
     /*    margin: 1% 0.5%;*/
@@ -220,7 +224,6 @@ body > #container{
     width:430px;
     /*    margin-left:65px;*/
     /*    display:inline-block;*/
-    min-height:100px;
     padding:5px;
 }
 .nickname{
