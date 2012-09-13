@@ -56,27 +56,7 @@
             </div>
             <div class="w-prueba2">
             </div>
-            <div class="demo">
-                <a href='' id="opener">open</a>
-                <div id="dialog" title="Eliminar">
-                    <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>Se va a eliminar el comentario, est&aacute; seguro que desea eliminar el comentario?</p>
-                </div>
-
-                <!-- Sample page content to illustrate the layering of the dialog -->
-                <div class="hiddenInViewSource" style="padding:20px;">
-                    <p>Sed vel diam id libero <a href="http://example.com">rutrum convallis</a>. Donec aliquet leo vel magna. Phasellus rhoncus faucibus ante. Etiam bibendum, enim faucibus aliquet rhoncus, arcu felis ultricies neque, sit amet auctor elit eros a lectus.</p>
-                    <form>
-                        <input value="text input" /><br />
-                        <input type="checkbox" />checkbox<br />
-                        <input type="radio" />radio<br />
-                        <select>
-                            <option>select</option>
-                        </select><br /><br />
-                        <textarea>textarea</textarea><br />
-                    </form>
-                </div><!-- End sample page content -->
-
-            </div>
+            
         </div>
 
 

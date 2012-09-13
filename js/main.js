@@ -4,6 +4,7 @@ $(document).on("ready" , main)  //Para que el JS solo carge luego que
 function main(){                //lista de funciones que estan en el codigo
     closeOnOver()
     dialogBox()
+    pushComent()
 }
 
 function closeOnOver(){
@@ -23,29 +24,9 @@ function closeOnOver(){
 }
 
 
-function dialogBox() {
-    // a workaround for a flaw in the demo system (http://dev.jqueryui.com/ticket/4375), ignore!
-    $( "#dialog:ui-dialog" ).dialog( "destroy" );
-	
-    $( "#dialog-confirm" ).dialog({
-//        autoOpen: false,
-        resizable: false,
-        height:140,
-        modal: true,
-        buttons: {
-            "Delete all items": function() {
-                $( this ).dialog( "close" );
-            },
-            Cancel: function() {
-                $( this ).dialog( "close" );
-            }
-        }
-    });
+
+
+function pushComent(){
     
-    $( "#opener" ).click(function(e) {
-         e.preventDefault();   
-			$( "#dialog" ).dialog( "open" );
-			return false;
-		});
 }
 	
